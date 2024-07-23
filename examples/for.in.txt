@@ -1,0 +1,8 @@
+int i, j, k;
+
+j = 3; k = 4;
+
+for (i = 0; i < 10; i++) {
+    k = k + j * 7;
+    output(k);
+}

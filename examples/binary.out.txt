@@ -1,0 +1,46 @@
+    in i
+    
+    j = 3
+    
+    k = static_cast<int> 4.00
+    
+    [in] a
+    
+    b = static_cast<double> 7
+    
+    c = 8.04
+    
+    t1 = j * k
+    i = t1
+    
+    t2 = b [*] c
+    a = t2
+    
+    t3 = static_cast<double> k
+    t4 = a [-] t3
+    i = static_cast<int> t4
+    
+    t5 = static_cast<double> k
+    t6 = t5 [-] a
+    j = static_cast<int> t6
+    
+    t7 = i + j
+    a = static_cast<double> t7
+    
+    t8 = i / j
+    t9 = t8 * k
+    b = static_cast<double> t9
+    
+    t10 = i / j
+    t11 = static_cast<double> t10
+    t12 = t11 [*] a
+    c = t12
+    
+    t13 = i + j
+    out t13
+    
+    t14 = a [*] b
+    t15 = c [*] c
+    t16 = t14 [+] t15
+    [out] t16
+    

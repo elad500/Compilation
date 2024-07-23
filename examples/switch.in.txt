@@ -1,0 +1,10 @@
+/* example of switch stmt. */
+int a, b;
+int z;
+
+switch(a+b) { 
+    case 1:  z = 10;
+    case 2:  z = 20;
+    case 3:  z = 30;
+    default: z = 100;
+}

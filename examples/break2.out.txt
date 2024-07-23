@@ -1,0 +1,26 @@
+    in i
+L_1:
+    ifFalse i < 10 goto L_2
+
+    out i
+    j = 0
+L_3:
+    ifFalse j < i goto L_4
+    ifFalse j == 4 goto L_6
+    goto L_4
+    goto L_5
+L_6:
+    out j
+L_5:
+    j = j + 1
+    goto L_3
+L_4:
+    k = 8
+    
+    goto L_2
+    
+    k = 9
+    
+    goto L_1
+L_2:
+    
